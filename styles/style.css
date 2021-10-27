@@ -68,8 +68,88 @@ div.section .content-2 {
 
 div.section .content-1 button {
 	background-color: #448488;
+	color: #ebdbb2;
 	padding: 5px 2em;
 	font-weight: 900;
 	border: 0;
 	border-radius: 5px;
+}
+
+.info {
+	padding: 15vh 30vh;
+	gap: 3em;
+}
+
+div.section .info-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #272727;
+}
+
+div.section .info-images {
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+}
+
+div.section .info-images .images {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+div.section .info-images .images .box {
+	border: 4px solid #448488;
+	border-radius: 10px;
+	width: 20vh;
+	height: 20vh;
+}
+
+.quotes {
+	background-color: #eeeeee;
+	padding: 9em 40vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.quotes em {
+	font-weight: 300;
+	font-size: 2em;
+	font-style: italic;
+}
+
+.quotes .right {
+	font-size: 1em;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.sign-up {
+	padding: 8em 30vh;
+}
+
+.sign-ups {
+	background-color: #448488;
+	color: #ebdbb2;
+	border-radius: 5px;
+	padding: 3em 20vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sign-ups button {
+	background-color: transparent;
+	color: #ebdbb2;
+	border: 2px solid #ebdbb2;
+	border-radius: 5px;
+	padding: 5px 30px;
+}
+
+.footer {
+	text-align: center;
+	padding: 1em 20vh;
+	background-color: #eeeeee;
 }
